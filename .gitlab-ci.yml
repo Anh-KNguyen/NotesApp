@@ -1,0 +1,7 @@
+image: "golang:latest"
+
+build:
+    script:
+        - echo hi
+        - go version
+        - go build -v .
